@@ -1,0 +1,2002 @@
+[
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000001",
+        "input": {
+            "sentence_1": "할아버지께서 병으로 아주 편찮으셨다.",
+            "sentence_3": "나는 할아버지의 장례식 때 많이 울었다.",
+            "sentence_2_candidate_1": "그렇게 할머니는 하늘의 별이 되셨다.",
+            "sentence_2_candidate_2": "그렇게 할아버지는 하늘의 별이 되셨다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000002",
+        "input": {
+            "sentence_1": "길을 가는데 아이가 서럽게 울고 있었다.",
+            "sentence_3": "아이는 엄마를 잃어버렸다고 울먹거리며 말했다.",
+            "sentence_2_candidate_1": "나는 아이에게 다가가 무슨 일이 있냐고 말했다.",
+            "sentence_2_candidate_2": "아이에게 사탕을 주자, 아이는 아무 일도 없다는 듯 웃었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000003",
+        "input": {
+            "sentence_1": "그는 다니던 회사에 사표를 냈다.",
+            "sentence_3": "그는 공무원 시험에 합격하였다.",
+            "sentence_2_candidate_1": "그러고 나서 창업 준비를 했다.",
+            "sentence_2_candidate_2": "그러고 나서 공무원 시험 준비를 했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000004",
+        "input": {
+            "sentence_1": "사회자가 넘어지자, 장내가 술렁였다.",
+            "sentence_3": "그저 안타까운 눈빛으로 쳐다보았을 뿐이었다.",
+            "sentence_2_candidate_1": "사람들은 사회자를 조롱하며 낄낄댔다.",
+            "sentence_2_candidate_2": "사람들은 사회자를 비웃지는 않았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000005",
+        "input": {
+            "sentence_1": "오빠 방에서 불빛이 흘러나오고 있었다.",
+            "sentence_3": "그러자 오빠가 깜짝 놀라며 나에게 방문을 닫고 나가라고 말했다.",
+            "sentence_2_candidate_1": "나는 오빠의 방에 그래서 노크를 해보았다.",
+            "sentence_2_candidate_2": "나는 오빠의 방에 그래서 들어가 보았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000006",
+        "input": {
+            "sentence_1": "바람이 불자 낙엽들이 마당 안으로 날아왔다.",
+            "sentence_3": "내가 구석으로 쓴 보람도 없이 낙엽들은 다시 바람에 날려갔다.",
+            "sentence_2_candidate_1": "나는 그 낙엽들을 구석으로 쓸었다.",
+            "sentence_2_candidate_2": "하지만 나는 귀찮아서 그 낙엽들을 그냥 내버려두었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000007",
+        "input": {
+            "sentence_1": "효겸은 뜨거운 정오 무렵 자전거 거치대로 향했다.",
+            "sentence_3": "기름칠이 다 된 체인은 부드럽게 잘 돌아갔다.",
+            "sentence_2_candidate_1": "효겸은 자신의 자전거 체인에 기름칠했다.",
+            "sentence_2_candidate_2": "효겸은 자신의 자전거 바퀴에 공기를 넣었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000008",
+        "input": {
+            "sentence_1": "그는 나에게 그 일을 하라고 지명했다.",
+            "sentence_3": "그런데 갑자기 그가 하던 일을 다른 이에게 넘기라고 지시했다.",
+            "sentence_2_candidate_1": "그래서 그는 그녀의 말대로 그 일을 했다.",
+            "sentence_2_candidate_2": "그래서 나는 그의 말대로 그 일을 했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000009",
+        "input": {
+            "sentence_1": "그는 자기 죄를 경찰에 자수하기로 결심했다.",
+            "sentence_3": "파출소 안에는 사람이 아무도 없었다.",
+            "sentence_2_candidate_1": "결심하고 그는 바로 파출소로 향했다.",
+            "sentence_2_candidate_2": "하지만 결심한 것도 잠시 그는 다시 생각을 바꾸었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000010",
+        "input": {
+            "sentence_1": "그는 일이 산더미같이 밀렸는데 여행 계획을 짜고 있었다.",
+            "sentence_3": "그러고 할 일을 마무리하고 난 뒤에 다시 계획을 짰다.",
+            "sentence_2_candidate_1": "그래서 할 일을 다 못 마치고 여행에 가게 되었다.",
+            "sentence_2_candidate_2": "그래서 할 일을 다 하고 계획을 다시 짜기로 했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000011",
+        "input": {
+            "sentence_1": "시에서는 이 지역을 도시 자연공원으로 지정했다.",
+            "sentence_3": "지역민들이 늘어나자, 경기가 활성화되었다.",
+            "sentence_2_candidate_1": "자연공원 앞에 있던 산의 나무가 밀렸다.",
+            "sentence_2_candidate_2": "자연공원 근처에 사는 사람들이 늘어났다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000012",
+        "input": {
+            "sentence_1": "그는 농사에 쫓겨 아이들을 돌보지 못했다.",
+            "sentence_3": "그는 급하게 감자를 구워 떼를 쓰는 아이들을 먹였다.",
+            "sentence_2_candidate_1": "아이들은 밥을 먹지 못해 쓰러졌다.",
+            "sentence_2_candidate_2": "아이들은 밥을 먹지 못해서 배가 고프다고 그에게 떼를 썼다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000013",
+        "input": {
+            "sentence_1": "찬장에 위치한 식기를 꺼내기 위해 손을 뻗었지만 역부족이었다.",
+            "sentence_3": "동생에게 꺼내주어서 고맙다고 말했다.",
+            "sentence_2_candidate_1": "나는 동생에게 꺼내 달라고 부탁했다.",
+            "sentence_2_candidate_2": "나는 의자에 올라가 접시를 꺼냈다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000014",
+        "input": {
+            "sentence_1": "내가 넣은 주식의 주가가 오르락내리락했다.",
+            "sentence_3": "그 후 다시 주가가 올라 화가 났다.",
+            "sentence_2_candidate_1": "나는 가지고 있던 주식의 주가를 수시로 확인했다.",
+            "sentence_2_candidate_2": "나는 가지고 있던 주식을 싸게 팔았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000015",
+        "input": {
+            "sentence_1": "적진에 수많은 폭탄이 떨어졌다.",
+            "sentence_3": "백기를 보고 적진에 가하던 폭탄 세례를 멈췄다.",
+            "sentence_2_candidate_1": "적들은 끝까지 저항하여 승리하였다.",
+            "sentence_2_candidate_2": "적들은 저항하지 못하고 백기를 들었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000016",
+        "input": {
+            "sentence_1": "고등학생이 편의점에서 담배를 사려고 했다.",
+            "sentence_3": "고등학생은 침을 카운터에 뱉고 가게 문을 나갔다.",
+            "sentence_2_candidate_1": "편의점 직원이 고등학생에게 신분증 제시를 요구했다.",
+            "sentence_2_candidate_2": "편의점 직원이 고등학생에게 신분증을 제시했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000017",
+        "input": {
+            "sentence_1": "현수는 매미 소리를 들으며 차를 마시고 있었다.",
+            "sentence_3": "차를 마시다 말고 현수는 밖으로 나가 겨울을 대비해 땔감을 준비했다.",
+            "sentence_2_candidate_1": "현수를 본 아버지는 어서 땔감을 준비하라고 호통치셨다.",
+            "sentence_2_candidate_2": "현수를 본 아버지는 어서 식사를 준비하라고 호통치셨다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000018",
+        "input": {
+            "sentence_1": "나는 밤늦게 퇴근했다.",
+            "sentence_3": "하지만 이미 빵집은 문을 닫았다.",
+            "sentence_2_candidate_1": "잠을 자기 위해 집으로 갔다.",
+            "sentence_2_candidate_2": "빵을 먹기 위해 빵집을 갔다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000019",
+        "input": {
+            "sentence_1": "딸에게 구워 줄 고기를 양념에 재워 두었다.",
+            "sentence_3": "그래서 저녁에 딸이 돌아오면 고기를 구워줘야겠다고 생각했다.",
+            "sentence_2_candidate_1": "딸은 나에게 저녁쯤에 돌아올 것 같다고 말했다.",
+            "sentence_2_candidate_2": "딸은 나에게 저녁쯤에 친구와 약속이 있다고 말했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000020",
+        "input": {
+            "sentence_1": "나는 어릴 적부터 검사가 되기를 꿈꿔왔다.",
+            "sentence_3": "나는 내 꿈을 실현할 수 있을 것 같아 가슴이 두근거렸다.",
+            "sentence_2_candidate_1": "그런데 얼마 전 나는 검사가 되는 마지막 관문을 통과했다.",
+            "sentence_2_candidate_2": "그런데 나는 공부를 못해서 검사가 되지 못했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000021",
+        "input": {
+            "sentence_1": "골목길에서 노란 우산이 나오는 모습이 보였다.",
+            "sentence_3": "골목길 앞에서 노란 우산을 쓰고 있는 동생과 마주쳤다.",
+            "sentence_2_candidate_1": "동생이 나갈 때 쓴 우산과 똑같았다.",
+            "sentence_2_candidate_2": "동생이 나갈 때 쓴 우산과 전혀 다른 우산이었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000022",
+        "input": {
+            "sentence_1": "효겸은 뜨거운 면발을 호호 불어 입에 댔다.",
+            "sentence_3": "어느 정도 뜨거움이 사라지자, 효겸은 면발을 입에 넣었다.",
+            "sentence_2_candidate_1": "입에 대자마자 다시 불어서 식혔다.",
+            "sentence_2_candidate_2": "입에 대자마자 면발이 젓가락에서 빠져나갔다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000023",
+        "input": {
+            "sentence_1": "그는 자신의 만취한 친구를 데리고 가고 있었다.",
+            "sentence_3": "그러나 빈 차인 택시는 잘 보이지 않았다.",
+            "sentence_2_candidate_1": "그리고 그 친구를 택시에 태워 집에 보내려고 했다.",
+            "sentence_2_candidate_2": "그런데 친구가 갑자기 길에 넘어졌다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000024",
+        "input": {
+            "sentence_1": "철수는 돈으로 매수한 타짜를 데리고 함께 불법 도박장에 갔다.",
+            "sentence_3": "철수는 타짜의 도움으로 돈을 많이 땄다.",
+            "sentence_2_candidate_1": "타짜는 철수가 돈을 따는 것을 도왔다.",
+            "sentence_2_candidate_2": "타짜는 철수의 돈을 가지고 튀었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000025",
+        "input": {
+            "sentence_1": "나는 얼마 전 새로운 도구를 제작했다.",
+            "sentence_3": "그래서 그 도구의 가격을 더 내렸다.",
+            "sentence_2_candidate_1": "사람들은 가격이 비싸도 도구의 성능에 만족했다.",
+            "sentence_2_candidate_2": "사람들은 가격이 비싸서 도구를 사기를 망설였다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000026",
+        "input": {
+            "sentence_1": "부산외국어대학교는 입학생 정원 미달 사태를 빚었다.",
+            "sentence_3": "인기 있는 학과를 신설하자 더 이상 입학생 정원 미달 사태는 일어나지 않았다.",
+            "sentence_2_candidate_1": "부산외국어대학교는 인기 있는 학과를 신설했다.",
+            "sentence_2_candidate_2": "부산외국어대학교는 인기 있는 학과를 없앴다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000027",
+        "input": {
+            "sentence_1": "확성기에서 밖으로 대피하라는 소리가 울려 나갔다.",
+            "sentence_3": "그러자 문 앞이 사람들로 꽉 막혀서 대피 시간이 더 늦어졌다.",
+            "sentence_2_candidate_1": "그러자 많은 사람들이 한꺼번에 집에서 뛰쳐나왔다.",
+            "sentence_2_candidate_2": "하지만 사람들은 대피 연습이라고 착각해 집을 나가지 않았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000028",
+        "input": {
+            "sentence_1": "나는 팔에 문신을 하기로 결정했다.",
+            "sentence_3": "나는 부모님의 얼굴을 새기기로 결심했다.",
+            "sentence_2_candidate_1": "문신으로 무슨 글을 써 넣을지 고민했다.",
+            "sentence_2_candidate_2": "문신으로 무슨 그림을 넣을지 고민하였다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000029",
+        "input": {
+            "sentence_1": "나는 알약을 먹기 위해 컵에 물을 따랐다.",
+            "sentence_3": "그 알약은 너무 커서 넘기질 못했다.",
+            "sentence_2_candidate_1": "그리고 밥을 입에 넣고 삼키려고 했다.",
+            "sentence_2_candidate_2": "그리고 알약을 입에 넣고 삼키려고 했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000030",
+        "input": {
+            "sentence_1": "나는 아직 초보라서 차를 잘 부릴 줄 몰랐다.",
+            "sentence_3": "그래서 늘 아빠가 조수석에 함께 타 줬다.",
+            "sentence_2_candidate_1": "나는 조수석에 타서 아빠가 운전하는 것을 보고 배워야겠다고 생각했다.",
+            "sentence_2_candidate_2": "나는 조수석에서 나를 지켜봐 줄 사람이 필요하다고 생각했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000031",
+        "input": {
+            "sentence_1": "나는 물에 떠 있는 물체를 보았다.",
+            "sentence_3": "건지고 보니 그냥 쓰레기였다.",
+            "sentence_2_candidate_1": "나는 그 물체를 눈으로 좇았다.",
+            "sentence_2_candidate_2": "나는 그 물체를 뜰채로 건졌다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000032",
+        "input": {
+            "sentence_1": "철수는 어제 먹고 남은 피자를 먹었다.",
+            "sentence_3": "배탈이 난 철수는 화장실에 가서 설사했다.",
+            "sentence_2_candidate_1": "철수는 피자를 먹고 나서 배탈이 났다.",
+            "sentence_2_candidate_2": "철수는 피자를 먹고 나서 배가 너무 불렀다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000033",
+        "input": {
+            "sentence_1": "현장 체험학습으로 갈 유적지를 답사했다.",
+            "sentence_3": "그래서 휴무일에는 들어갈 수 없으니 현장 체험 장소를 어쩔 수 없이 바꿨다.",
+            "sentence_2_candidate_1": "현장 체험 날짜가 휴무일이라는 것을 알게 되었다.",
+            "sentence_2_candidate_2": "현장 체험 날짜에 체험 행사가 있다는 것을 알게 되었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000034",
+        "input": {
+            "sentence_1": "수많은 탈락 끝에 취업에 성공했다.",
+            "sentence_3": "친구들은 자신이 취업한 것처럼 좋아했다.",
+            "sentence_2_candidate_1": "나는 이 사실을 곧장 친구들에게 알렸다.",
+            "sentence_2_candidate_2": "나는 이 사실을 곧장 가족들에게만 알렸다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000035",
+        "input": {
+            "sentence_1": "아버지께서 간 이식을 받으셔야 했다.",
+            "sentence_3": "아버지께서는 아들의 결정을 말리셨다.",
+            "sentence_2_candidate_1": "그래서 아들은 아버지에게 신장을 이식하겠다고 결정했다.",
+            "sentence_2_candidate_2": "그래서 아들은 아버지에게 간을 이식하겠다고 결정했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000036",
+        "input": {
+            "sentence_1": "경기에서 똑같은 결과가 여러 차례 반복되었다.",
+            "sentence_3": "사람들의 의심이 커지자, 주최 측은 경기 조작을 인정했다.",
+            "sentence_2_candidate_1": "늘 같은 결과였지만 사람들은 의심조차 하지 않았다.",
+            "sentence_2_candidate_2": "늘 같은 결과에 사람들은 의심하기 시작했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000037",
+        "input": {
+            "sentence_1": "우리는 이번 탈춤 공연에서 고성오광대를 전수하려 올리기로 정했다.",
+            "sentence_3": "우리는 매일 연습실에 모여 양반춤을 연습 했다.",
+            "sentence_2_candidate_1": "많은 연습을 했지만, 사정이 생겨 공연이 취소되어서 매우 아쉽다고 생각했다.",
+            "sentence_2_candidate_2": "그중에서 특히 양반춤이 어려워서 많은 연습이 필요하다고 생각했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000038",
+        "input": {
+            "sentence_1": "아이는 하늘을 날아가는 새를 보았다.",
+            "sentence_3": "아이는 새 그림을 완성해서 벽에 붙였다.",
+            "sentence_2_candidate_1": "그리고 아이는 개미 그림을 그리기 시작했다.",
+            "sentence_2_candidate_2": "그리고 아이는 새 그림을 그리기 시작했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000039",
+        "input": {
+            "sentence_1": "욕조의 물이 넘쳐 거실로 넘어왔다.",
+            "sentence_3": "하지만 욕조의 물은 출렁거리며 계속 넘쳤다.",
+            "sentence_2_candidate_1": "그래서 물이 더 이상 나오지 않게 수도꼭지를 잠갔다.",
+            "sentence_2_candidate_2": "그래서 거실에 넘친 물을 다 닦고 나니 허리가 아팠다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000040",
+        "input": {
+            "sentence_1": "물놀이장에서 하루 종일 놀았던 나의 피부가 검게 그을었다.",
+            "sentence_3": "그러자 피부가 다시 돌아왔다.",
+            "sentence_2_candidate_1": "나는 한동안 밖에 나가서 놀지 않았다.",
+            "sentence_2_candidate_2": "나는 한동안 밖에서 사람들의 시선을 받았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000041",
+        "input": {
+            "sentence_1": "나는 그를 학급회장으로 밀었다.",
+            "sentence_3": "선생님의 부름에 그는 쭈뼛거리며 앞으로 나갔다.",
+            "sentence_2_candidate_1": "선생님이 그를 앞으로 부르셨다.",
+            "sentence_2_candidate_2": "선생님께서 그의 출마를 반대하셨다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000042",
+        "input": {
+            "sentence_1": "차장님께서 부하 직원들을 불러 모으셨다.",
+            "sentence_3": "그리고 차장은 정리해고와 관련된 이야기를 부하직원들에게 말했다.",
+            "sentence_2_candidate_1": "차장은 부하직원들의 눈치를 살피며 말을 꺼내기 시작했다.",
+            "sentence_2_candidate_2": "차장은 부하직원들의 눈치를 살피며 자리를 피하고 말았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000043",
+        "input": {
+            "sentence_1": "무거운 짐을 지고 걸어가는 할머니가 있었다.",
+            "sentence_3": "젊은 사람 누구도 할머니를 도와주지 않고 길을 걸어갔다.",
+            "sentence_2_candidate_1": "할머니는 주변에 도움을 청했다.",
+            "sentence_2_candidate_2": "할머니는 무거운 짐을 가볍게 들었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000044",
+        "input": {
+            "sentence_1": "경찰은 범인의 은신처를 정찰했다.",
+            "sentence_3": "범인이 나타나자, 경찰은 범인을 곧바로 검거했다.",
+            "sentence_2_candidate_1": "경찰은 범인이 오지 않자, 은신처에서 나왔다.",
+            "sentence_2_candidate_2": "경찰은 범인이 올 때까지 은신처에서 기다렸다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000045",
+        "input": {
+            "sentence_1": "나는 기숙사로 가기 위한 짐을 다 꾸렸다.",
+            "sentence_3": "나는 엄마의 눈물을 닦아주었다.",
+            "sentence_2_candidate_1": "엄마는 내가 기숙사에 가는 것에 대해서 웃음을 지었다.",
+            "sentence_2_candidate_2": "엄마는 내가 기숙사에 가는 것에 대해서 눈물을 흘렸다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000046",
+        "input": {
+            "sentence_1": "식당에서 아이가 여기저기 돌아다녔다.",
+            "sentence_3": "아이는 의자에서 다시 일어났다.",
+            "sentence_2_candidate_1": "아이의 아빠가 돌아다니던 아이를 의자에 앉혔다.",
+            "sentence_2_candidate_2": "아이의 아빠가 돌아다니던 아이를 업고 나갔다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000047",
+        "input": {
+            "sentence_1": "비에 흠뻑 젖은 효겸이 문을 두드렸다.",
+            "sentence_3": "집주인은 효겸을 귀한 손님처럼 대했다.",
+            "sentence_2_candidate_1": "그러자 집주인이 효겸을 집 안에 들였다.",
+            "sentence_2_candidate_2": "그러자 집주인이 효겸을 크게 혼냈다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000048",
+        "input": {
+            "sentence_1": "나는 그가 길바닥에 지갑을 흘린 것을 보았다.",
+            "sentence_3": "그러자 그가 고맙다며 꾸벅 인사했다.",
+            "sentence_2_candidate_1": "나는 그의 지갑을 모른 척하고 지나갔다.",
+            "sentence_2_candidate_2": "나는 지갑을 주워 그에게 주었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000049",
+        "input": {
+            "sentence_1": "효겸은 생각 없이 산속으로 깊숙이 들어갔다.",
+            "sentence_3": "깊은 산속이라 전화가 불통이었다.",
+            "sentence_2_candidate_1": "친구에게 전화하기 위해 휴대전화를 켰다.",
+            "sentence_2_candidate_2": "저장된 음악을 듣기 위해 휴대전화를 켰다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000050",
+        "input": {
+            "sentence_1": "손버릇이 좋지 않았던 그는 공주를 시중드는 하인이었다.",
+            "sentence_3": "궁에서 일하던 사람들은 그를 범인으로 몰았다.",
+            "sentence_2_candidate_1": "공주는 값비싼 목걸이를 선물로 받았다.",
+            "sentence_2_candidate_2": "공주의 값비싼 목걸이가 도둑맞는 사건이 발생했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000051",
+        "input": {
+            "sentence_1": "그녀는 상인에게 유혹되어서 그 물건을 구매했다.",
+            "sentence_3": "그래서 그녀는 그 물건을 방에 방치해두었다.",
+            "sentence_2_candidate_1": "그녀는 그 물건을 사용할 줄 몰랐다.",
+            "sentence_2_candidate_2": "그녀는 그 물건을 자랑하고 다녔다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000052",
+        "input": {
+            "sentence_1": "수영복을 입은 동생이 바다에 들어갔다.",
+            "sentence_3": "바다에서 나온 동생은 파도가 무서워서 다시 들어가지 않겠다고 했다.",
+            "sentence_2_candidate_1": "동생은 큰 파도에 놀라 바다에 들어갔다.",
+            "sentence_2_candidate_2": "동생은 큰 파도에 놀라 금방 바다에서 나왔다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000053",
+        "input": {
+            "sentence_1": "어머니께서 마취가 덜 풀려 휘청거리셨다.",
+            "sentence_3": "어머니는 자리에 앉아 마취가 풀리기를 기다리셨다.",
+            "sentence_2_candidate_1": "어머니는 힘이 없어 잘 걸을 수 없다고 하셨다.",
+            "sentence_2_candidate_2": "어머니는 힘이 없어 다시 누워야겠다고 하셨다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000054",
+        "input": {
+            "sentence_1": "형사과 막내가 조폭에게 칼을 찔렸다.",
+            "sentence_3": "선배 형사들은 범인의 목덜미를 잡아 트렁크에 잡아넣었다.",
+            "sentence_2_candidate_1": "조폭은 피를 흘리면서도 도주하려고 시도했으나 막다른 길을 만났다.",
+            "sentence_2_candidate_2": "조폭은 피를 흘리면서도 도주를 시도해 골목 끝에서 부하의 차를 만났다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000055",
+        "input": {
+            "sentence_1": "나는 동전을 바닥에 떨궜다.",
+            "sentence_3": "나는 주운 동전으로 음료수를 뽑아 먹었다.",
+            "sentence_2_candidate_1": "나는 떨어진 동전을 찾을 수 없었다.",
+            "sentence_2_candidate_2": "나는 떨어진 동전을 주웠다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000056",
+        "input": {
+            "sentence_1": "학교 직원들이 덥다며 학교에 에어컨을 틀어달라고 요구했다.",
+            "sentence_3": "에어컨이 가동하자 직원들의 민원이 줄었다.",
+            "sentence_2_candidate_1": "학교는 할 수 없이 히터를 가동했다.",
+            "sentence_2_candidate_2": "학교는 할 수 없이 에어컨을 가동했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000057",
+        "input": {
+            "sentence_1": "그 원숭이는 나무를 잘 탔다.",
+            "sentence_3": "그러자 그는 사육사가 심어준 새 나무를 탔다.",
+            "sentence_2_candidate_1": "그래서 사육사는 사료를 바꾸어 주었다.",
+            "sentence_2_candidate_2": "그래서 사육사는 새 나무를 심어 주었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000058",
+        "input": {
+            "sentence_1": "그는 현실에 안주하는 삶이 의미가 없다고 생각했다.",
+            "sentence_3": "그는 불안정한 회사 사정에 힘들었지만 자기 계발을 하는 자신의 삶에 만족했다.",
+            "sentence_2_candidate_1": "그는 회사가 끝나고도 자기 계발에 힘썼다.",
+            "sentence_2_candidate_2": "그는 회사가 끝나면 매일 술을 마시면서 놀았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000059",
+        "input": {
+            "sentence_1": "나는 연필을 책상 위에 두었다.",
+            "sentence_3": "나는 그에게 내 연필을 돌려 달라고 했다.",
+            "sentence_2_candidate_1": "그런데 그가 갑자기 그 옷을 가져갔다.",
+            "sentence_2_candidate_2": "그런데 그가 갑자기 그 연필을 가져갔다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000060",
+        "input": {
+            "sentence_1": "그가 과녁을 향해 화살을 쐈다.",
+            "sentence_3": "날아간 화살은 과녁에 정중했다.",
+            "sentence_2_candidate_1": "화살이 힘을 잃고 떨어졌다.",
+            "sentence_2_candidate_2": "화살이 과녁을 향해 날아갔다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000061",
+        "input": {
+            "sentence_1": "지훈이는 담을 넘다가 선생님께 걸렸다.",
+            "sentence_3": "지훈이는 교무실에서 벌을 섰다.",
+            "sentence_2_candidate_1": "선생님은 지훈이를 다시 교실로 돌려보냈다.",
+            "sentence_2_candidate_2": "선생님은 지훈이를 데리고 교무실로 왔다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000062",
+        "input": {
+            "sentence_1": "그는 돈을 훔치고 도망갔다.",
+            "sentence_3": "그러나 그는 자신의 범행을 부인했다.",
+            "sentence_2_candidate_1": "경찰은 빵을 훔친 그를 잡았다.",
+            "sentence_2_candidate_2": "경찰은 돈을 훔친 그를 잡았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000063",
+        "input": {
+            "sentence_1": "모든 면에서 부족한 그는 우연히 과장 직급을 맡게 됐다.",
+            "sentence_3": "사원들의 불만은 날로 커졌다.",
+            "sentence_2_candidate_1": "그는 과장으로서 일을 제대로 해내지 못했다.",
+            "sentence_2_candidate_2": "그는 과장으로서 맡은 일은 제대로 했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000064",
+        "input": {
+            "sentence_1": "우리는 문제를 해결하기 위해 지혜를 짰다.",
+            "sentence_3": "결국 우리는 선생님께 조언을 구했다.",
+            "sentence_2_candidate_1": "하지만 도무지 해결 방법이 나오지 않았다.",
+            "sentence_2_candidate_2": "지혜를 짠 덕분에 해결 방법을 찾을 수 있었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000065",
+        "input": {
+            "sentence_1": "그는 라디오 볼륨을 작게 조절했다.",
+            "sentence_3": "그는 자신이 보낸 사연을 듣기 위해 볼륨을 다시 높였다.",
+            "sentence_2_candidate_1": "그런데 크기가 너무 작아서 보이지 않았다.",
+            "sentence_2_candidate_2": "그런데 소리가 너무 작아서 들리지 않았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000066",
+        "input": {
+            "sentence_1": "그는 올해에 최대의 상금을 거둬들였다.",
+            "sentence_3": "그의 기부 소식이 뒤늦게 알려졌다.",
+            "sentence_2_candidate_1": "그 상금으로 그는 아파트를 계약했다.",
+            "sentence_2_candidate_2": "그 상금을 모두 그가 기부했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000067",
+        "input": {
+            "sentence_1": "나는 실내로 들어가기 위해 우산을 접었다.",
+            "sentence_3": "나는 경비원의 요청에 따라 우산을 털고 들어갔다.",
+            "sentence_2_candidate_1": "그런데 경비원이 나에게 우산을 털고 들어와 달라고 요청했다.",
+            "sentence_2_candidate_2": "그런데 우산이 고장이 났는지 접히지 않았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000068",
+        "input": {
+            "sentence_1": "뻐꾸기가 새의 둥지로 날아들었다.",
+            "sentence_3": "뻐꾸기는 자신의 알을 두고 다시 날아갔다.",
+            "sentence_2_candidate_1": "뻐꾸기가 둥지에 자신의 알을 낳았다.",
+            "sentence_2_candidate_2": "뻐꾸기가 둥지에 자신의 알을 깨뜨렸다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000069",
+        "input": {
+            "sentence_1": "겨울에 먹을 것이 없었던 원시인은 동굴을 나가 짐승을 사냥했다.",
+            "sentence_3": "그래서 원시인은 차가워진 몸을 녹이기 위해 서둘러 동굴로 향했다.",
+            "sentence_2_candidate_1": "추운 겨울 사냥을 나간 원시인은 동상에 걸렸다.",
+            "sentence_2_candidate_2": "추운 겨울 사냥을 나간 원시인은 동사했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000070",
+        "input": {
+            "sentence_1": "그는 지난번 말실수로 인사 담당자의 눈 밖에 났다.",
+            "sentence_3": "그는 인사 담당자가 얄미웠지만 아무것도 할 수 없어 결과를 수긍했다.",
+            "sentence_2_candidate_1": "인사 담당자는 일부러 그에게 많이 일을 시켰다.",
+            "sentence_2_candidate_2": "인사 담당자는 그의 일을 많이 도와주었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000071",
+        "input": {
+            "sentence_1": "그녀는 화가 풀린 듯 보였다.",
+            "sentence_3": "그녀는 다시는 그러지 말라며 내 사과를 받아주었다.",
+            "sentence_2_candidate_1": "그래서 나는 그녀에게 사과했다.",
+            "sentence_2_candidate_2": "그래서 나는 그녀에게 장난을 쳤다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000072",
+        "input": {
+            "sentence_1": "나는 친구와 여행을 가기로 한 날에 출장이 잡혔다.",
+            "sentence_3": "나는 친구에게 양해를 구하고 여행을 다른 날로 미루었다.",
+            "sentence_2_candidate_1": "그래서 나는 친구에게 양해를 구했다.",
+            "sentence_2_candidate_2": "그래서 나는 친구에게 양해를 구하려고 했지만, 친구가 나에게 과하게 화를 냈다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000073",
+        "input": {
+            "sentence_1": "그는 일찍 군대에 들어갔다.",
+            "sentence_3": "대학 선배는 그가 선임임을 알고 두려워했다.",
+            "sentence_2_candidate_1": "이후 대학 선배가 그와 같은 부대로 들어왔다.",
+            "sentence_2_candidate_2": "이후 대학 후배가 그와 같은 부대로 들어왔다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000074",
+        "input": {
+            "sentence_1": "그는 부인의 손에 친구했다.",
+            "sentence_3": "불쾌함을 느낀 부인은 바로 손을 닦았다.",
+            "sentence_2_candidate_1": "그런데 그에게서 냄새가 났다.",
+            "sentence_2_candidate_2": "그의 예의 바른 모습에 기분이 좋았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000075",
+        "input": {
+            "sentence_1": "집에 오자마자 씻고 나왔다.",
+            "sentence_3": "다 씻은 나는 엄마에게 심부름하러 가기 싫다고 말했다.",
+            "sentence_2_candidate_1": "나는 과자를 사기 위해 편의점에 가기로 했다.",
+            "sentence_2_candidate_2": "엄마는 그런 나에게 심부름을 시켰다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000076",
+        "input": {
+            "sentence_1": "아이는 집에 오자마자 가방을 팽개쳤다.",
+            "sentence_3": "그러고 나서 냉장고에서 아이스크림을 꺼내 마구 퍼먹었다.",
+            "sentence_2_candidate_1": "그리고 아이는 팥빙수 기계를 꺼냈다.",
+            "sentence_2_candidate_2": "그리고 아이는 냉장고로 향했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000077",
+        "input": {
+            "sentence_1": "며칠 전 시험이 끝났다.",
+            "sentence_3": "하루 종일 침대에 누워 뭉그적거렸다.",
+            "sentence_2_candidate_1": "시험이 끝났으니 친구들과 약속을 잡아 밖에 나갔다.",
+            "sentence_2_candidate_2": "시험이 끝났으니, 공부하지 않고 침대에 누워 쉬었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000078",
+        "input": {
+            "sentence_1": "준성과 범석은 오늘 아침부터 계속해서 신경전을 벌였다.",
+            "sentence_3": "준성과 범석은 신경전을 벌이지 않고 자기 할 것을 할 수 있었다.",
+            "sentence_2_candidate_1": "이를 본 상사가 그들에게 각자 할 일을 부여했다.",
+            "sentence_2_candidate_2": "이를 본 상사가 그들의 신경전에 끼어들었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000079",
+        "input": {
+            "sentence_1": "유명한 연예인이 가방을 광고했다.",
+            "sentence_3": "그래서 그 가방은 1시간 만에 다 팔렸다.",
+            "sentence_2_candidate_1": "그 광고를 본 많은 사람들이 그 가방을 사기 시작했다.",
+            "sentence_2_candidate_2": "하지만 그 가방은 생각보다 잘 팔리지 않았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000080",
+        "input": {
+            "sentence_1": "나는 큰 잘못을 저질렀다.",
+            "sentence_3": "그래서 나는 아버지 앞에서 무릎을 꿇고 빌었다.",
+            "sentence_2_candidate_1": "피해자는 나의 이름도 몰랐다.",
+            "sentence_2_candidate_2": "피해자는 나를 절대 용서하지 않겠다고 했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000081",
+        "input": {
+            "sentence_1": "그들은 밝은 표정으로 찬송가를 합창하였다.",
+            "sentence_3": "순식간에 교회 안은 아수라장이 되었다.",
+            "sentence_2_candidate_1": "합창 소리에 교회 사람들이 행복해했다.",
+            "sentence_2_candidate_2": "합창을 하니 천장 유리가 부서지며 떨어졌다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000082",
+        "input": {
+            "sentence_1": "그는 이번에 회장 선거에 나가게 되었다.",
+            "sentence_3": "그러나 선거의 결과는 그의 손을 들어주지 않았다.",
+            "sentence_2_candidate_1": "그래서 그는 열심히 선거 운동을 했다.",
+            "sentence_2_candidate_2": "하지만 회장을 하기 싫었던 그는 선거 운동을 하지 않았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000083",
+        "input": {
+            "sentence_1": "영희는 옷을 다 입고 거울을 보았다.",
+            "sentence_3": "영희는 고민하다가 목걸이를 했다.",
+            "sentence_2_candidate_1": "착장은 괜찮은데 뭔가 허전한 느낌이 들었다.",
+            "sentence_2_candidate_2": "입고 있던 옷에 뭐가 묻어있는 걸 발견하여 다른 옷으로 갈아입고 나갔다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000084",
+        "input": {
+            "sentence_1": "효겸은 모든 인부를 한데 불러 모았다.",
+            "sentence_3": "인부들은 모자를 벗고 자리에 앉아 쉬었다.",
+            "sentence_2_candidate_1": "효겸은 인부들에게 잠시 휴식하라는 지시를 내렸다.",
+            "sentence_2_candidate_2": "효겸은 인부들에게 잠시 식사하고 오라는 지시를 내렸다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000085",
+        "input": {
+            "sentence_1": "나는 과제를 하고 있었다.",
+            "sentence_3": "그래서 나는 피로회복제를 마셨다.",
+            "sentence_2_candidate_1": "하지만 새벽이 되자 과제를 멈추고 잠을 잤다.",
+            "sentence_2_candidate_2": "하지만 새벽이 되자 잠이 왔다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000086",
+        "input": {
+            "sentence_1": "그는 불법으로 성매매했다.",
+            "sentence_3": "그는 발뺌했지만, 경찰은 그를 잡아갔다.",
+            "sentence_2_candidate_1": "그 사실을 경찰은 은폐했다.",
+            "sentence_2_candidate_2": "그 사실을 경찰이 알았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000087",
+        "input": {
+            "sentence_1": "효겸은 지희와 마트에 장을 보고 있었다.",
+            "sentence_3": "효겸은 그 사탕 한 봉지를 장바구니에 슬쩍 넣었다.",
+            "sentence_2_candidate_1": "효겸은 사탕 한 봉지를 집어 들었다.",
+            "sentence_2_candidate_2": "효겸은 과자 한 봉지를 집어 들었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000088",
+        "input": {
+            "sentence_1": "철수는 집 전화기가 울리는 소리에 잠에서 깼다.",
+            "sentence_3": "그러나 아무 대답이 없자 철수는 수화기를 내려놓았다.",
+            "sentence_2_candidate_1": "잠에서 깬 철수는 수화기를 들었다.",
+            "sentence_2_candidate_2": "잠에서 깬 철수는 목이 너무 말랐다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000089",
+        "input": {
+            "sentence_1": "겨울 방학을 맞아 가족들과 스키장에 갔다.",
+            "sentence_3": "중급 코스를 혼자 타고 내려올 수 있게 되었다.",
+            "sentence_2_candidate_1": "나는 스키를 타면서 실력이 계속 늘었다.",
+            "sentence_2_candidate_2": "나는 스키를 타면서 상처를 입어서 옷을 갈아입고 쉬었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000090",
+        "input": {
+            "sentence_1": "유치원 버스에서 내린 아이가 엄마를 향해 뛰어오다 넘어졌다.",
+            "sentence_3": "엄마는 아이를 안고 달래줬다.",
+            "sentence_2_candidate_1": "넘어진 아이는 길에서 동전을 주웠다.",
+            "sentence_2_candidate_2": "넘어진 아이는 자리에서 일어나지 못하고 울기 시작했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000091",
+        "input": {
+            "sentence_1": "나는 계약 조건 협상을 위해 상대 기업 대리인과 만났다.",
+            "sentence_3": "이러한 상황 때문에 협상하는 데에만 1시간이 넘게 걸렸다.",
+            "sentence_2_candidate_1": "대리인은 내가 내민 조건을 검토하더니 계약을 체결하자고 했다.",
+            "sentence_2_candidate_2": "대리인은 내가 내민 조건을 다시 상대 기업 대표에게 전달해야 했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000092",
+        "input": {
+            "sentence_1": "아이는 졸린지 하품을 연발했다.",
+            "sentence_3": "아이는 어머니에게 안기자마자 잠이 들었다.",
+            "sentence_2_candidate_1": "어머니는 하품하는 아이를 보며 자신도 하품했다.",
+            "sentence_2_candidate_2": "어머니는 하품하는 아이를 보고 품에 안았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000093",
+        "input": {
+            "sentence_1": "아이에게 밥을 먹이고 아이를 씻겼다.",
+            "sentence_3": "다시 화장실에 들어가 아이를 씻기고 옷을 입혔다.",
+            "sentence_2_candidate_1": "씻기던 아이를 화장실에 잠깐 두고 나가 수건을 가지러 갔다.",
+            "sentence_2_candidate_2": "아이를 씻기자마자 수건으로 물기를 닦고 옷을 입혔다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000094",
+        "input": {
+            "sentence_1": "나는 두 마을이 합쳐져서 이룩된 도시에 살았다.",
+            "sentence_3": "그래서 나는 다른 도시로 이사했다.",
+            "sentence_2_candidate_1": "그런데 갑자기 그 회사에서 연쇄 살인 사건이 벌어졌다.",
+            "sentence_2_candidate_2": "그런데 갑자기 그 도시에서 연쇄 살인 사건이 벌어졌다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000095",
+        "input": {
+            "sentence_1": "철수는 영희가 지갑을 훔치는 모습을 보았다고 진술했다.",
+            "sentence_3": "영희는 선생님의 물음에 부정하지 않았다.",
+            "sentence_2_candidate_1": "선생님은 영희에게 숙제를 누구와 했냐고 물었다.",
+            "sentence_2_candidate_2": "선생님은 영희에게 남의 것을 훔쳤냐고 물었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000096",
+        "input": {
+            "sentence_1": "나는 친구와 만나는 시간이 언제인지 헷갈렸다.",
+            "sentence_3": "하지만 친구가 연락을 보지 않아 그냥 미리 나가보기로 했다.",
+            "sentence_2_candidate_1": "그래서 친구에게 시간을 물어보자, 친구는 2시에 만나기로 했다고 말했다.",
+            "sentence_2_candidate_2": "그래서 친구에게 언제 만나는지 연락을 보냈다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000097",
+        "input": {
+            "sentence_1": "시험 문제가 어렵다는 항의를 학생들에게 받았다.",
+            "sentence_3": "시험을 친 아이들도 문제가 쉬워졌다는 반응을 보였다.",
+            "sentence_2_candidate_1": "그래서 다음 시험에서는 글자 수를 적게 조절했다.",
+            "sentence_2_candidate_2": "그래서 다음 시험에서는 난이도를 쉽게 조절했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000098",
+        "input": {
+            "sentence_1": "그는 달걀을 깨서 그릇에 풀었다.",
+            "sentence_3": "그는 그다음 완벽하게 오므라이스를 만들었다.",
+            "sentence_2_candidate_1": "그리고 푼 달걀을 프라이팬에 두르고 밥을 볶았다.",
+            "sentence_2_candidate_2": "그리고 푼 달걀을 프라이팬에 두르고 라면을 볶았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000099",
+        "input": {
+            "sentence_1": "동아리를 만들어야 하는데 인원이 턱없이 모자라 학생들을 탐색했다.",
+            "sentence_3": "후배는 내 거짓말에 걸려들어 동아리에 가입했다.",
+            "sentence_2_candidate_1": "그러나 동아리에 가입하지 않은 후배들을 찾는 일이란 여간 쉬운 일이 아녔다.",
+            "sentence_2_candidate_2": "나는 아직 동아리에 가입하지 않은 후배에게 우리 동아리가 가장 인기 있는 동아리라고 거짓말했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000100",
+        "input": {
+            "sentence_1": "그녀는 머리카락을 너무 짧게 잘라 머리가 빨리 자라길 바랐다.",
+            "sentence_3": "그래서 그녀는 가발을 구매했다.",
+            "sentence_2_candidate_1": "하지만 머리카락은 빨리 자라지 않았다.",
+            "sentence_2_candidate_2": "그러자 정말 머리카락이 빨리 자라는 것 같은 기분이 느껴졌다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000101",
+        "input": {
+            "sentence_1": "그는 할머니를 도와 청소를 했다.",
+            "sentence_3": "그는 한사코 용돈을 거절했다.",
+            "sentence_2_candidate_1": "할머니는 그런 그에게 용돈을 주었다.",
+            "sentence_2_candidate_2": "할머니는 그런 그에게 과자를 주었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000102",
+        "input": {
+            "sentence_1": "아버지는 내 교육을 위해 고향을 뜨셨다.",
+            "sentence_3": "나는 아버지의 노력을 위해서라도 열심히 공부하기로 다짐했다.",
+            "sentence_2_candidate_1": "아버지는 밤낮으로 일을 가시며 내게 열심히 공부하라고 하셨다.",
+            "sentence_2_candidate_2": "아버지는 돈을 좇다 도박에 빠졌고 내게 매일 폭력과 욕설을 행사했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000103",
+        "input": {
+            "sentence_1": "형과 동생은 떨어져 살았다.",
+            "sentence_3": "그래서 둘은 다시 합쳐서 살기 시작했다.",
+            "sentence_2_candidate_1": "어느 날 형이 동생에게 이제부터는 같이 살자고 제안했고 동생은 알겠다고 대답했다.",
+            "sentence_2_candidate_2": "어느 날 형이 동생에게 집을 합치자고 제안했지만, 동생은 단호하게 거절했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000104",
+        "input": {
+            "sentence_1": "생도는 매일 무술을 연마했다.",
+            "sentence_3": "그는 큰 책임감을 느꼈다.",
+            "sentence_2_candidate_1": "생도의 스승은 그 무술의 위험성에 대해 알려주었다.",
+            "sentence_2_candidate_2": "생도는 이제 그 무술에 질려 무술을 쳐다도 보지 않았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000105",
+        "input": {
+            "sentence_1": "나는 친구와 합작하여 공모전에 출품했다.",
+            "sentence_3": "우리는 대상에 당선되어 받은 돈으로 맛있는 것을 사 먹었다.",
+            "sentence_2_candidate_1": "그 후 우리는 그 공모전에서 대상을 받았다.",
+            "sentence_2_candidate_2": "하지만 아쉽게도 입상하지 못했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000106",
+        "input": {
+            "sentence_1": "어제 새벽부터 비가 엄청나게 쏟아졌다.",
+            "sentence_3": "효겸은 아침에 무너진 모래성을 보고 매우 실망했다.",
+            "sentence_2_candidate_1": "비가 쏟아지는 바람에 효겸이 만든 모래성이 무너졌다.",
+            "sentence_2_candidate_2": "비가 쏟아지는 바람에 효겸이 널어둔 옷이 젖었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000107",
+        "input": {
+            "sentence_1": "무릎의 상처가 곪아서 고름이 나왔다.",
+            "sentence_3": "고름을 닦은 휴지를 휴지통에 버렸다.",
+            "sentence_2_candidate_1": "무릎의 고름을 휴지로 닦아냈다.",
+            "sentence_2_candidate_2": "무릎의 흙을 휴지로 닦아냈다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000108",
+        "input": {
+            "sentence_1": "나는 그의 어깨를 두드렸다.",
+            "sentence_3": "그는 나에게 받은 서류를 가방에 넣었다.",
+            "sentence_2_candidate_1": "나는 그가 놓고 간 인형을 챙겨주었다.",
+            "sentence_2_candidate_2": "나는 그가 놓고 간 서류를 챙겨주었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000109",
+        "input": {
+            "sentence_1": "그들은 아들을 사고로 잃었다.",
+            "sentence_3": "제정신이 아니었던 그들에게 사기꾼이 접근했다.",
+            "sentence_2_candidate_1": "그들을 그래서 정신을 차리고 살았다.",
+            "sentence_2_candidate_2": "그들은 그래서 정신이 이상해졌다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000110",
+        "input": {
+            "sentence_1": "학교 수학 수업의 진도를 따라가기에는 너무 빨랐다.",
+            "sentence_3": "학원을 등록한 이후 학교 진도를 따라잡기 수월해졌다.",
+            "sentence_2_candidate_1": "그래서 나는 학원을 등록했다.",
+            "sentence_2_candidate_2": "그래서 나는 과외를 등록했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000111",
+        "input": {
+            "sentence_1": "밤늦게 연희의 집 앞에서 효겸이 얼쩡댔다.",
+            "sentence_3": "효겸이 가지 않자, 연희는 경찰서에 효겸을 신고했다.",
+            "sentence_2_candidate_1": "연희는 효겸에게 전화해 집에 가라고 말했다.",
+            "sentence_2_candidate_2": "연희는 효겸에게 전화해 집에 오라고 말했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000112",
+        "input": {
+            "sentence_1": "그는 나에게 빚을 갚으라고 독촉했다.",
+            "sentence_3": "그러자 그는 내가 가는 곳마다 따라다니기 시작했다.",
+            "sentence_2_candidate_1": "나는 그의 독촉에 빚을 갚았다.",
+            "sentence_2_candidate_2": "나는 그의 독촉을 무시했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000113",
+        "input": {
+            "sentence_1": "축제 무대 스크린에 올라온 친구의 모습이 클로즈업되었다.",
+            "sentence_3": "친구에게 휴대전화로 찍었던 사진을 보여주었다.",
+            "sentence_2_candidate_1": "누군가 친구에게 휴대전화를 던졌다.",
+            "sentence_2_candidate_2": "친구의 얼굴을 휴대전화로 사진을 찍었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000114",
+        "input": {
+            "sentence_1": "나는 텃밭 옆에 땅을 파서 팻말을 세웠다.",
+            "sentence_3": "나는 더 깊게 땅을 파 다시 팻말을 세웠다.",
+            "sentence_2_candidate_1": "세워둔 팻말은 거센 바람에도 끄떡없었다.",
+            "sentence_2_candidate_2": "세워둔 팻말은 곧바로 쓰러졌다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000115",
+        "input": {
+            "sentence_1": "장마로 인해 산의 흙이 많이 소실되었다.",
+            "sentence_3": "다음 해 폭우가 내리자,산사태가 일어났다.",
+            "sentence_2_candidate_1": "흙과 함께 나무도 많이 뽑혀 나갔다.",
+            "sentence_2_candidate_2": "나무 화분에 있던 흙을 조금 덜어냈다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000116",
+        "input": {
+            "sentence_1": "친구가 이사한 집에 놀러 왔다.",
+            "sentence_3": "나는 친구가 준 조각상을 테이블 위에 놓았다.",
+            "sentence_2_candidate_1": "친구는 선물로 반지를 주었다.",
+            "sentence_2_candidate_2": "친구는 선물로 조각상을 주었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000117",
+        "input": {
+            "sentence_1": "그가 운영하던 기업이 대기업에 합병되었다.",
+            "sentence_3": "그러나 그는 대기업의 팀장 자리를 거절하고 새 사업을 시작했다.",
+            "sentence_2_candidate_1": "그래서 그는 대기업의 팀장 자리를 제안받았다.",
+            "sentence_2_candidate_2": "그래서 그는 대기업의 팀장이 되었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000118",
+        "input": {
+            "sentence_1": "친구는 공무원 시험에 집중해야 한다고 했다.",
+            "sentence_3": "그렇게 해서 친구는 결국 공무원 시험에 합격했다.",
+            "sentence_2_candidate_1": "친구는 모두와의 인연을 소중하게 여겼다.",
+            "sentence_2_candidate_2": "친구는 모두와의 연락을 끊고 공무원 시험 준비에 몰두했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000119",
+        "input": {
+            "sentence_1": "빵을 기다리는 손님들이 다닥다닥 붙어 있었다.",
+            "sentence_3": "손님들은 일정 간격을 유지해 줄을 서려고 노력했다.",
+            "sentence_2_candidate_1": "손님들을 향해 주인이 일정 간격을 두고 줄을 서달라고 부탁했다.",
+            "sentence_2_candidate_2": "손님들을 향해 주인이 일정 시간 동안 판매를 중단한다고 말했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000120",
+        "input": {
+            "sentence_1": "현수의 반대편 관중석에 그의 친구가 앉아 있었다.",
+            "sentence_3": "너무나 크게 소리 지른 나머지 현수의 목에서 피가 나왔다.",
+            "sentence_2_candidate_1": "그 모습을 본 현수는 그 친구에게 바로 전화를 걸었다.",
+            "sentence_2_candidate_2": "현수는 그 친구를 향해 소리를 질렀다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000121",
+        "input": {
+            "sentence_1": "나는 일하다가 동료에게 강아지 사진을 보여주었다.",
+            "sentence_3": "그러자 부장이 우리에게 공과 사를 구별하라고 핀잔을 주었다.",
+            "sentence_2_candidate_1": "부장이 강아지가 귀엽다고 말했다.",
+            "sentence_2_candidate_2": "부장이 그 광경을 목격했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000122",
+        "input": {
+            "sentence_1": "아이들이 눈을 비비며 일어났다.",
+            "sentence_3": "아이들은 욕실에서 세수했다.",
+            "sentence_2_candidate_1": "일어난 아이들은 부엌으로 갔다.",
+            "sentence_2_candidate_2": "일어난 아이들은 욕실로 갔다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000123",
+        "input": {
+            "sentence_1": "이사 온 지 한 달이 넘었지만, 아직 완전히 정리되지 못했다.",
+            "sentence_3": "그들은 점점 지쳤고 더 이상 이사를 하고 싶지 않아 했다.",
+            "sentence_2_candidate_1": "그들은 결국 정리하는 것을 포기했다.",
+            "sentence_2_candidate_2": "그들은 또다시 정리를 시작했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000124",
+        "input": {
+            "sentence_1": "과음으로 유발되는 질병에 대한 광고를 보았다.",
+            "sentence_3": "술을 끊기로 한 나는 집에 있는 술을 모두 버렸다.",
+            "sentence_2_candidate_1": "나는 흡연에 대한 무서움을 느꼈다.",
+            "sentence_2_candidate_2": "나는 과음에 대한 무서움을 느꼈다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000125",
+        "input": {
+            "sentence_1": "어릴 때는 모든 일을 일기장에 기록했다.",
+            "sentence_3": "어른이 되니 일기장의 내용이 부끄럽게 느껴졌다.",
+            "sentence_2_candidate_1": "그리고 어른이 되어서 그 일기장을 읽어보았다.",
+            "sentence_2_candidate_2": "그런데 이사를 하면서 그 일기장을 모두 잃어버렸다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000126",
+        "input": {
+            "sentence_1": "나는 그에게 거짓말을 했다.",
+            "sentence_3": "죄책감이 들었던 나는 그에게 거짓말을 했다고 고백했다.",
+            "sentence_2_candidate_1": "그래도 나는 당당함을 느꼈다.",
+            "sentence_2_candidate_2": "그래서 나는 죄책감이 들었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000127",
+        "input": {
+            "sentence_1": "그는 처음으로 복싱 경기에 출전하였다.",
+            "sentence_3": "그는 경기에서 진 것이 창피해 더 열심히 노력했다.",
+            "sentence_2_candidate_1": "그런데 그는 실수로 경기에서 선수에게 욕을 하고 말았다.",
+            "sentence_2_candidate_2": "그런데 그는 실수해서 경기에서 지고 말았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000128",
+        "input": {
+            "sentence_1": "어머니께서 민채의 얼굴이 붉어진 것을 보셨다.",
+            "sentence_3": "그러고는 체온계를 가져오셔서 다시 체온을 재 보셨다.",
+            "sentence_2_candidate_1": "어머니는 민채가 열이 나는 것 같아서 병원에 데려가셨다.",
+            "sentence_2_candidate_2": "어머니는 민채가 열이 나는 것 같아서 이마에 손을 대 보셨다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000129",
+        "input": {
+            "sentence_1": "강하고 단단한 쇳조각으로 부싯돌을 쳤다.",
+            "sentence_3": "연기가 점점 자욱해지더니 마침내 불이 붙었다.",
+            "sentence_2_candidate_1": "부싯돌 가까이에 종이를 대고 계속 부싯돌을 치니 스파크가 일었다.",
+            "sentence_2_candidate_2": "불쏘시개로 쓸만한 종이나 낙엽이 없어 불을 붙이지 못했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000130",
+        "input": {
+            "sentence_1": "수상작 선정은 문학상 운영 위원회에 위촉되었다.",
+            "sentence_3": "그래서 운영 위원회는 그 의혹에 대해 해명하고 나섰다.",
+            "sentence_2_candidate_1": "그 사건에 관해 위원회는 모르쇠를 댔다.",
+            "sentence_2_candidate_2": "그 사건에 관해 항의 전화가 빗발쳤다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000131",
+        "input": {
+            "sentence_1": "철수는 영희에게 사과 한 박스를 선물로 받았다.",
+            "sentence_3": "한 달 후 뒤늦게 트렁크를 열었을 때 사과는 온통 곯아 있었다.",
+            "sentence_2_candidate_1": "철수는 그 사과 박스를 집으로 들고 와 일주일 만에 다 먹어 버렸다.",
+            "sentence_2_candidate_2": "철수는 그 사과 박스를 트렁크에 넣어두고 까먹었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000132",
+        "input": {
+            "sentence_1": "그는 자신의 형편에 자족하며 살았다.",
+            "sentence_3": "그는 부자가 된 동창의 소식을 듣고 그와 자신을 비교하기 시작했다.",
+            "sentence_2_candidate_1": "그러다가 그는 동창이 그를 만나기를 원한다는 소식을 들었다.",
+            "sentence_2_candidate_2": "그러다가 그는 동창이 부자가 되었다는 소식을 접했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000133",
+        "input": {
+            "sentence_1": "그들은 밤마다 모여서 반역을 도모했다.",
+            "sentence_3": "왕은 눈치를 채자마자 그들이 모이는 곳을 급습했다.",
+            "sentence_2_candidate_1": "왕이 그들의 반역을 눈치챘다.",
+            "sentence_2_candidate_2": "하지만 왕은 그들의 반역을 눈치채지 못했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000134",
+        "input": {
+            "sentence_1": "효겸은 핸드폰에 회의 시작을 알리는 알림 소리를 들었다.",
+            "sentence_3": "회의장으로 가던 도중 효겸은 많은 사람들과 부딪혔지만 사과하지 않았다.",
+            "sentence_2_candidate_1": "알림 소리를 듣자마자 효겸은 회의장을 향해 달렸다.",
+            "sentence_2_candidate_2": "알림 소리를 듣자마자 효겸은 화장실을 향해 달렸다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000135",
+        "input": {
+            "sentence_1": "어젯밤 효겸은 여자 친구의 집으로 갔다.",
+            "sentence_3": "여자 친구가 문을 열어 효겸을 반겼다.",
+            "sentence_2_candidate_1": "효겸은 여자 친구 집의 문을 두드렸다.",
+            "sentence_2_candidate_2": "효겸은 여자 친구 집의 위치를 착각했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000136",
+        "input": {
+            "sentence_1": "모의고사가 끝나자, 선생님이 들어오셨다.",
+            "sentence_3": "학생들은 선생님께 해설지를 받자마자 채점했다.",
+            "sentence_2_candidate_1": "그리고 선생님은 학생들에게 해설지를 배부했다.",
+            "sentence_2_candidate_2": "그리고 선생님은 학생들에게 이제 집에 가도 된다고 말했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000137",
+        "input": {
+            "sentence_1": "하원하는 사이에 아이가 셔틀버스에서 잠들었다.",
+            "sentence_3": "아이가 아빠 등에서 잠이 깨어 눈을 떴다.",
+            "sentence_2_candidate_1": "아빠는 셔틀버스에서 아이를 조심히 안고 등 뒤로 업었다.",
+            "sentence_2_candidate_2": "아빠는 셔틀버스에서 아이를 데려오려고 했으나 일이 바빠서 가지 못했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000138",
+        "input": {
+            "sentence_1": "그는 피곤함에 찌들어 지하철에서 졸았다.",
+            "sentence_3": "그는 창피해서 벌떡 일어나 하차했다.",
+            "sentence_2_candidate_1": "그는 졸다가 역을 확인하고 짐을 챙겼다.",
+            "sentence_2_candidate_2": "그는 졸다가 머리를 기둥에 쿵 박았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000139",
+        "input": {
+            "sentence_1": "수지는 방에 누워서 쉬고 있었다.",
+            "sentence_3": "수지는 벌레를 보고 자신도 모르게 크게 소리를 질렀다.",
+            "sentence_2_candidate_1": "그때, 수지는 엄마가 부르는 소리를 들었다.",
+            "sentence_2_candidate_2": "그때, 수지는 벌레가 벽에 붙어있는 것을 보고 말았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000140",
+        "input": {
+            "sentence_1": "골목 안은 어두운 암흑 속에 휩싸여 있었다.",
+            "sentence_3": "나는 골목을 완전히 빠져나온 후에 휴대전화 플래시를 껐다.",
+            "sentence_2_candidate_1": "나는 다리를 지나가기 위해서 자동차 전조등을 켰다.",
+            "sentence_2_candidate_2": "나는 골목을 지나가기 위해서 휴대전화 플래시를 켰다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000141",
+        "input": {
+            "sentence_1": "학교에 친구가 다리를 다쳐 깁스하고 왔다.",
+            "sentence_3": "그녀는 친구를 부축하며 집에 데려다주었다.",
+            "sentence_2_candidate_1": "그녀는 친구가 혼자 걷는 것이 불편해 보였다.",
+            "sentence_2_candidate_2": "그녀는 친구가 혼자 짐을 나르는 것이 불편해 보였다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000142",
+        "input": {
+            "sentence_1": "효겸은 지난해에 자신의 골동품을 처분했다.",
+            "sentence_3": "효겸은 여유가 있어 그 골동품을 되샀다.",
+            "sentence_2_candidate_1": "지난해에 팔았던 골동품이 계속 생각났다.",
+            "sentence_2_candidate_2": "지난해에 봐두었던 시계가 계속 생각났다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000143",
+        "input": {
+            "sentence_1": "그는 자신의 계획을 친구들 앞에서 구술했다.",
+            "sentence_3": "친구들의 예상과는 다르게 그는 계획을 이루어냈다.",
+            "sentence_2_candidate_1": "그러자 친구들은 그 계획은 실패할 것이라고 말했다.",
+            "sentence_2_candidate_2": "그러자 친구들은 그의 계획에 손뼉을 쳤다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000144",
+        "input": {
+            "sentence_1": "비가 온 뒤 도로에 물이 고였다.",
+            "sentence_3": "도로에 고인 물이 사방으로 튀었다.",
+            "sentence_2_candidate_1": "고인 물 위로 차들이 지나갔다.",
+            "sentence_2_candidate_2": "고인 물 위에 모래를 부었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000145",
+        "input": {
+            "sentence_1": "그는 어려움을 당면하게 되었다.",
+            "sentence_3": "그가 용기를 내 맞선 끝에 어려움을 극복할 수 있었다.",
+            "sentence_2_candidate_1": "그는 그 어려움에 자포자기하고 내앉았다.",
+            "sentence_2_candidate_2": "그는 그 어려움에 용기를 내어 맞섰다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000146",
+        "input": {
+            "sentence_1": "그녀는 운전 도중 깜빡 졸았다.",
+            "sentence_3": "다행히 그녀는 많이 다치지 않았고 다른 사람도 다치지 않았다.",
+            "sentence_2_candidate_1": "그러다 그녀는 다른 차와 착각했다.",
+            "sentence_2_candidate_2": "그러다 그녀는 다른 차와 사고가 났다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000147",
+        "input": {
+            "sentence_1": "나는 아침 강의에 연이어 오후 강의를 듣게 되었다.",
+            "sentence_3": "오후 강의에서 내 배에서 꼬르륵 소리가 울려 퍼졌다.",
+            "sentence_2_candidate_1": "나는 아침 강의가 끝나자마자 점심을 든든하게 챙겨 먹고 오후 강의에 들어갔다.",
+            "sentence_2_candidate_2": "두 강의 사이에 점심 먹을 시간이 부족하여 점심을 굶고 오후 강의에 들어갔다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000148",
+        "input": {
+            "sentence_1": "그녀는 발을 헛디뎌서 구덩이로 떨어졌다.",
+            "sentence_3": "그녀가 구조를 요청하자 사람들이 달려왔다.",
+            "sentence_2_candidate_1": "그녀는 구덩이 속에 물을 퍼내기 시작했다.",
+            "sentence_2_candidate_2": "그녀는 구덩이 속에서 구조를 요청했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000149",
+        "input": {
+            "sentence_1": "그는 사람들이 자신에 대해 수군대는 걸 들었다.",
+            "sentence_3": "그러자 그 사람들은 당황하며 그의 눈치를 살피더니 사과했다.",
+            "sentence_2_candidate_1": "그는 사람들에게서 멀리 도망쳤다.",
+            "sentence_2_candidate_2": "그는 사람들에게 다 알고 있다고 말했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000150",
+        "input": {
+            "sentence_1": "옷을 오래 입어 색이 다 바랬다.",
+            "sentence_3": "걸레로 다시 활용하여 사용하였다.",
+            "sentence_2_candidate_1": "그래서 그 옷을 버렸다.",
+            "sentence_2_candidate_2": "그래서 그 옷을 활용할 방법을 찾았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000151",
+        "input": {
+            "sentence_1": "영화 상영 시간이 다 되었는데도 광고가 나왔다.",
+            "sentence_3": "영화가 시작되자 사람들은 입을 닫고 스크린을 쳐다봤다.",
+            "sentence_2_candidate_1": "사람들은 왜 영화가 시작되지 않냐고 불평을 털어놓았다.",
+            "sentence_2_candidate_2": "영화가 끝내 시작되지 않아 영화관은 환불해 줬다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000152",
+        "input": {
+            "sentence_1": "그녀는 손톱을 관리하기 위해 네일샵에 방문했다.",
+            "sentence_3": "그녀는 자신이 받은 풀코스 관리가 30만 원이라는 것을 듣고 놀랐다.",
+            "sentence_2_candidate_1": "그녀는 그 네일샵에서 풀코스를 받았다.",
+            "sentence_2_candidate_2": "그녀는 그 네일샵에서 손톱 관리만 받았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000153",
+        "input": {
+            "sentence_1": "원래 모든 사람은 평등한 신분을 가지고 있었다.",
+            "sentence_3": "부유하지 못한 사람들과 반대의 사람들로 세상이 계층화되었다.",
+            "sentence_2_candidate_1": "어느 날, 몇몇 사람들이 부를 축적하기 시작했다.",
+            "sentence_2_candidate_2": "어느 날, 몇몇 사람들이 명예를 누리기 시작했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000154",
+        "input": {
+            "sentence_1": "그 영화 시사회를 본 평론가들이 상찬하였다.",
+            "sentence_3": "입소문을 탄 영화는 결국 흥행에 성공하였다.",
+            "sentence_2_candidate_1": "평론가들의 평가가 좋은 입소문을 만들었다.",
+            "sentence_2_candidate_2": "뮤지컬에 대한 평가가 좋은 입소문을 만들었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000155",
+        "input": {
+            "sentence_1": "폭풍이 거세게 들이닥쳐서 대문이 부서졌다.",
+            "sentence_3": "나는 아버지가 고치신 대문을 이리저리 살펴보았다.",
+            "sentence_2_candidate_1": "아버지는 대문을 뚝딱 고치셨다.",
+            "sentence_2_candidate_2": "아버지는 대문을 고치기 위해 수리공을 부르셨다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000156",
+        "input": {
+            "sentence_1": "나는 책상에 엎드려서 필기했다.",
+            "sentence_3": "나는 친구의 말대로 자세를 고쳐 앉았다.",
+            "sentence_2_candidate_1": "친구는 나를 보더니 자신도 나와 같은 자세로 필기하기 시작했다.",
+            "sentence_2_candidate_2": "친구는 그런 자세로 공부하면 허리에 좋지 않으니 똑바로 앉으라고 했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000157",
+        "input": {
+            "sentence_1": "그는 순간의 쾌락보다 미래의 안정을 추구했다.",
+            "sentence_3": "초인적인 집중력으로 공부에 매진한 그는 마침내 사법 고시에 합격했다.",
+            "sentence_2_candidate_1": "그는 놀러 가자는 친구들의 유혹에도 꿋꿋하게 사법 고시를 준비했다.",
+            "sentence_2_candidate_2": "그는 놀러 가자는 친구들의 끈질긴 유혹에 못 이겨 준비하던 사법 고시를 포기했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000158",
+        "input": {
+            "sentence_1": "나는 세입자에게 방을 비우라고 통지했다.",
+            "sentence_3": "그래서 나는 세입자를 독촉했다.",
+            "sentence_2_candidate_1": "세입자는 알겠다고 대답하고 교실을 비우지 않았다.",
+            "sentence_2_candidate_2": "세입자는 알겠다고 대답했지만, 방을 비우지 않았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000159",
+        "input": {
+            "sentence_1": "민수는 다리를 꼬고 앉아 있었다.",
+            "sentence_3": "민수는 급하게 다리를 풀고 일어나서 인사를 했다.",
+            "sentence_2_candidate_1": "그때 갑자기 선생님께서 들어오셨다.",
+            "sentence_2_candidate_2": "그때 갑자기 동생이 들어왔다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000160",
+        "input": {
+            "sentence_1": "나는 얼음을 으깨 통에 담았다.",
+            "sentence_3": "나는 통에 든 얼음을 마당에 부었다.",
+            "sentence_2_candidate_1": "나는 그 통을 냉장고에 넣었다.",
+            "sentence_2_candidate_2": "나는 그 통을 마당으로 가지고 나왔다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000161",
+        "input": {
+            "sentence_1": "엄마는 그녀에게 화상을 입지 않게 조심하라고 했다.",
+            "sentence_3": "엄마는 그녀를 데리고 병원에 갔다.",
+            "sentence_2_candidate_1": "그녀는 엄마의 말을 듣고 나서 더 조심히 행동했다.",
+            "sentence_2_candidate_2": "그녀는 엄마의 말을 듣지 않아서 결국 화상을 입었다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000162",
+        "input": {
+            "sentence_1": "그녀는 시세에 준해서 패물을 친구에게 팔았다.",
+            "sentence_3": "그래서 그녀는 친구에게 다시 패물을 돌려 달라고 부탁했다.",
+            "sentence_2_candidate_1": "그 패물의 가격이 자꾸만 내려갔다.",
+            "sentence_2_candidate_2": "그 패물이 집안의 보물이라는 것을 나중에 알았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000163",
+        "input": {
+            "sentence_1": "그 기업은 그가 혼자 경영을 도맡았었다.",
+            "sentence_3": "아들이 경영을 맡은 후, 기업은 파산했다.",
+            "sentence_2_candidate_1": "지친 그는 전문 경영인에게 기업 경영을 맡겼다.",
+            "sentence_2_candidate_2": "지친 그는 아들에게 기업 경영을 맡겼다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000164",
+        "input": {
+            "sentence_1": "나는 동료와 치고받고 싸우고 있었다.",
+            "sentence_3": "우리는 부장님께 고개 숙여 잘못했다고 말씀드렸다.",
+            "sentence_2_candidate_1": "그러다가 우리는 부장님 집에 초대를 받았다.",
+            "sentence_2_candidate_2": "그러다가 우리는 부장님께 혼이 났다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000165",
+        "input": {
+            "sentence_1": "아들이 현관문을 열고 집 안으로 들어왔다.",
+            "sentence_3": "어머니는 기뻐 온 가족이 함께하는 자리를 마련하자고 말씀하셨다.",
+            "sentence_2_candidate_1": "어머니가 한달음에 달려 나와 오랜만에 온 아들을 반겼다.",
+            "sentence_2_candidate_2": "어머니가 한달음에 달려 나와 오랜만에 본 아버지를 반겼다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000166",
+        "input": {
+            "sentence_1": "그는 원하던 대학에 붙었다.",
+            "sentence_3": "그러자 그의 주변 사람들은 그를 축하했다.",
+            "sentence_2_candidate_1": "나는 그것을 모든 지인에게 선물했다.",
+            "sentence_2_candidate_2": "나는 그것을 주변 사람들에게 알렸다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000167",
+        "input": {
+            "sentence_1": "효겸이 출장하며 사용했던 비용을 회사에 청구했다.",
+            "sentence_3": "효겸의 계좌에는 일부분의 금액만이 상환되었다.",
+            "sentence_2_candidate_1": "개인적으로 지출된 비용은 회사에서 제외하였다.",
+            "sentence_2_candidate_2": "개인적으로 지출된 비용 모두 회사에서 부담하였다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000168",
+        "input": {
+            "sentence_1": "어머니께서 외출했다가 돌아오셨을 때 철수는 밥을 먹고 있었다.",
+            "sentence_3": "철수는 그제야 숟가락을 놓고 일어나 어머니께 인사를 했다.",
+            "sentence_2_candidate_1": "철수는 밥을 먹다가 바로 어머니께 달려가 어머니를 껴안았다.",
+            "sentence_2_candidate_2": "철수는 밥을 먹느라 몰랐는데 어머니가 들어와서 이름을 불렀다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000169",
+        "input": {
+            "sentence_1": "그는 쌀을 씻어 밥을 지었다.",
+            "sentence_3": "아내는 불고기를 원한다고 했다.",
+            "sentence_2_candidate_1": "아내에게 먹고 싶은 생선을 물어보았다.",
+            "sentence_2_candidate_2": "아내에게 먹고 싶은 반찬을 물어보았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000170",
+        "input": {
+            "sentence_1": "태풍에 나무가 뒤로 넘어갔다.",
+            "sentence_3": "그 차 주인은 화가 났지만, 화낼 곳이 없었다.",
+            "sentence_2_candidate_1": "넘어간 나무는 차 위로 쓰러졌다.",
+            "sentence_2_candidate_2": "넘어간 나무는 차를 아슬아슬하게 건드리지 않았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000171",
+        "input": {
+            "sentence_1": "그 선수는 잘못된 자세로 송판을 격파했다.",
+            "sentence_3": "선수는 병원으로 옮겨져 치료를 받았다.",
+            "sentence_2_candidate_1": "그러자 선수의 뼈가 아물기 시작했다.",
+            "sentence_2_candidate_2": "그러자 선수의 뼈에 금이 가기 시작했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000172",
+        "input": {
+            "sentence_1": "아이의 아버지가 거액의 빚을 졌다.",
+            "sentence_3": "아이는 아버지 바지를 잡고 울었다.",
+            "sentence_2_candidate_1": "아버지는 아이에게 큰 빚이 생겼다고 말했다.",
+            "sentence_2_candidate_2": "아버지는 아이에게 맛있는 저녁을 해 주었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000173",
+        "input": {
+            "sentence_1": "나는 뒷모습만 보고 친구인 줄 알고 등을 쳤다.",
+            "sentence_3": "옆에 친구가 보이길래 서둘러 친구에게 달려갔다.",
+            "sentence_2_candidate_1": "모르는 사람이 내가 도망가지 못하게 내 멱살을 잡고 놓아주지 않았다.",
+            "sentence_2_candidate_2": "모르는 사람이 황당하다는 표정으로 나를 돌아보았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000174",
+        "input": {
+            "sentence_1": "노사 양측 모두 요구사항을 조금도 굽히지 않았다.",
+            "sentence_3": "노사 모두 중재안을 받아들여 협상이 극적으로 체결되었다.",
+            "sentence_2_candidate_1": "계속되는 대립에 사측이 먼저 굽히고 중재안을 제시했다.",
+            "sentence_2_candidate_2": "계속되는 대립에 결국 사측은 중재 없이 노조 측의 요구를 들어주기로 했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000175",
+        "input": {
+            "sentence_1": "그 책은 한국에서 발간되었다.",
+            "sentence_3": "그래서 그 책은 미국에서도 발간되게 되었다.",
+            "sentence_2_candidate_1": "그 책은 세계적으로 엄청난 인기를 얻었다.",
+            "sentence_2_candidate_2": "그 책은 세계적으로 엄청난 비판을 받았다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000176",
+        "input": {
+            "sentence_1": "너무 많이 음식을 포식해서 장염에 걸렸다.",
+            "sentence_3": "결국 나는 아픔을 참지 못하고 입원을 했다.",
+            "sentence_2_candidate_1": "나는 약을 먹고 몰려오는 아픔을 참았다.",
+            "sentence_2_candidate_2": "나는 약을 먹고 금세 몸을 회복했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000177",
+        "input": {
+            "sentence_1": "그는 치받는 화를 삭이려고 심호흡하고 있었다.",
+            "sentence_3": "그러자 그는 화가 폭발하여 친구를 향해 고래고래 소리를 질렀다.",
+            "sentence_2_candidate_1": "심호흡하는 그의 심기를 동생이 건드렸다.",
+            "sentence_2_candidate_2": "심호흡하는 그의 심기를 친구가 건드렸다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000178",
+        "input": {
+            "sentence_1": "우리 가족은 이번에 아주 싱싱한 사과를 수확했다.",
+            "sentence_3": "나는 재빠르게 고객에게 다가가 우리 사과의 가치에 관해 설명했다.",
+            "sentence_2_candidate_1": "시장에서 수확한 사과를 팔고 있으니, 고객이 다가왔다.",
+            "sentence_2_candidate_2": "시장에서 수확한 사과를 팔았더니 금방 다 팔리고 사라져 일찍 장사를 접었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000179",
+        "input": {
+            "sentence_1": "환경 문제가 본회의에 상정되었다.",
+            "sentence_3": "그러나 그 많은 해결책 중에 실용적인 것은 없었다.",
+            "sentence_2_candidate_1": "그래서 환경 문제를 해결하기 위한 해결책이 많이 나왔다.",
+            "sentence_2_candidate_2": "하지만 아무도 환경 문제를 해결하기 위한 해결책을 내지 못했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000180",
+        "input": {
+            "sentence_1": "테니스를 아주 못하는 효겸이 코트로 들어섰다.",
+            "sentence_3": "효겸의 실력에 현제는 화가나 라켓을 땅바닥에 던졌다.",
+            "sentence_2_candidate_1": "현제는 효겸이에게 테니스를 알려주었지만 진도가 잘 나가지 못했다.",
+            "sentence_2_candidate_2": "현제는 효겸이에게 배드민턴을 알려주었지만 진도가 잘 나가지 못했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000181",
+        "input": {
+            "sentence_1": "철수는 토익 시험을 치러 학교에 갔다.",
+            "sentence_3": "학교를 나온 철수는 담배를 피운 후 담배를 밟아 껐다.",
+            "sentence_2_candidate_1": "철수는 토익 시험을 다 치르고 학교에서 나왔다.",
+            "sentence_2_candidate_2": "철수는 토익 시험을 다 치르고 학교에 있다는 친구를 만났다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000182",
+        "input": {
+            "sentence_1": "나는 송곳니가 그 옆의 이와 겹쳐서 교정을 했다.",
+            "sentence_3": "교정기가 익숙해질 때쯤 교정이 끝났다.",
+            "sentence_2_candidate_1": "처음 한 교정기는 매우 편했다.",
+            "sentence_2_candidate_2": "처음 한 교정기는 매우 불편했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000183",
+        "input": {
+            "sentence_1": "효겸은 부대 전체에게 작전을 개시할 시간을 말했다.",
+            "sentence_3": "효겸은 부대원들의 말을 묵살하고 예정대로 진행할 것을 요구했다.",
+            "sentence_2_candidate_1": "부대원들은 개시 시간까지 촉박하다며 불만을 토로했다.",
+            "sentence_2_candidate_2": "부대원들은 개시 시간까지 여유롭다며 만족감을 표시했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000184",
+        "input": {
+            "sentence_1": "옷에 아이스크림을 흘려 옷이 더러워졌다.",
+            "sentence_3": "하지만 그 얼룩은 지워지지 않았다.",
+            "sentence_2_candidate_1": "나는 얼룩이 있는 부분에 비누칠을 열심히 했다.",
+            "sentence_2_candidate_2": "나는 비누칠을 열심히 해서 얼룩을 지웠다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000185",
+        "input": {
+            "sentence_1": "눈을 뜨자마자 냉장고 문을 열었다.",
+            "sentence_3": "나는 아침으로 요구르트를 먹었다.",
+            "sentence_2_candidate_1": "냉장고에 있던 요구르트를 꺼냈다.",
+            "sentence_2_candidate_2": "냉장고에 있던 물을 꺼냈다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000186",
+        "input": {
+            "sentence_1": "아버지는 대대로 물려받은 땅을 팔아넘겼다.",
+            "sentence_3": "아버지는 유물 발견 소식을 듣고 땅을 판 것을 후회했다.",
+            "sentence_2_candidate_1": "그런데 그 땅에서 유물이 발견되었다.",
+            "sentence_2_candidate_2": "그리고 그 돈으로 아버지는 건물을 샀다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000187",
+        "input": {
+            "sentence_1": "네이버에 로그인하자 비밀번호를 변경하라는 안내 메시지가 나왔다.",
+            "sentence_3": "얼마 후 해외에서 내 아이디를 해킹하여 정보를 유출 당했다.",
+            "sentence_2_candidate_1": "나는 그것을 무시하고 비밀번호를 변경하지 않았다.",
+            "sentence_2_candidate_2": "나는 그것을 보고 비밀번호를 무엇으로 바꿀지 고민했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000188",
+        "input": {
+            "sentence_1": "효겸은 벽에 붙어 있던 스티커를 뗐다.",
+            "sentence_3": "그리고 효겸은 무심하게 그것을 쓰레기통에 버렸다.",
+            "sentence_2_candidate_1": "뗀 스티커를 쫙쫙 찢었다.",
+            "sentence_2_candidate_2": "뗀 스티커를 파일에 보관했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000189",
+        "input": {
+            "sentence_1": "내가 내린 홍차가 적당하게 우러났다.",
+            "sentence_3": "홍차를 마신 엄마는 향이 좋다고 말했다.",
+            "sentence_2_candidate_1": "나는 말린 홍차를 판매업자의 차에 실었다.",
+            "sentence_2_candidate_2": "나는 내린 홍차를 엄마의 컵에 따랐다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000190",
+        "input": {
+            "sentence_1": "나는 호스를 수도꼭지에 연결했다.",
+            "sentence_3": "수도꼭지에서 나온 물이 호스로 나오기 시작했다.",
+            "sentence_2_candidate_1": "그 후 수도꼭지를 틀었다.",
+            "sentence_2_candidate_2": "그런데 자세히 보니 호스에 구멍이 뚫려있었다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000191",
+        "input": {
+            "sentence_1": "친구는 나쁜 사상을 가진 선배에게 물들었다.",
+            "sentence_3": "내 충고에도 친구는 계속 그 선배와 만났다.",
+            "sentence_2_candidate_1": "그래서 그 친구에게 나는 충고를 해줬다.",
+            "sentence_2_candidate_2": "그래서 나는 그 친구와 절교했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000192",
+        "input": {
+            "sentence_1": "그는 노력 끝에 자격증 시험을 통과했다.",
+            "sentence_3": "나에게 안겨 그가 기쁨의 눈물을 흘렸다.",
+            "sentence_2_candidate_1": "그는 나를 만나서 시험에 통과한 사실을 알렸다.",
+            "sentence_2_candidate_2": "그는 나를 만나서 시험에 통과하지 못한 척 연기했다."
+        },
+        "output": "sentence_2_candidate_1"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000193",
+        "input": {
+            "sentence_1": "불참한다고 했던 배우의 깜짝 등장으로 객석이 술렁였다.",
+            "sentence_3": "사람들은 카메라를 들고 사진을 찍기 시작했다.",
+            "sentence_2_candidate_1": "등장한 배우는 사진 촬영은 삼가 달라고 부탁했다.",
+            "sentence_2_candidate_2": "등장한 배우는 사진 촬영을 해도 된다고 말했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000194",
+        "input": {
+            "sentence_1": "그는 아내의 생일을 까먹었다.",
+            "sentence_3": "그는 아내를 달래주기 위해 진을 뺐다.",
+            "sentence_2_candidate_1": "그래서 아내는 나에게 선물을 주었다.",
+            "sentence_2_candidate_2": "그래서 아내는 엄청나게 삐졌다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000195",
+        "input": {
+            "sentence_1": "출석만 하고 교수님 몰래 강의실을 빠져나왔다.",
+            "sentence_3": "친구들이 나 대신 대답을 해주어서 위기를 넘겼다.",
+            "sentence_2_candidate_1": "교수님이 수업 도중 화장실에 가셨다.",
+            "sentence_2_candidate_2": "교수님이 수업 도중 나에게 질문을 하셨다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000196",
+        "input": {
+            "sentence_1": "그는 친구에게 바람이나 쐬는 게 어떠냐고 제의했다.",
+            "sentence_3": "그는 친구와 바람을 쐬면서 깊은 대화를 나누었다.",
+            "sentence_2_candidate_1": "친구는 그의 실패를 받아들였다.",
+            "sentence_2_candidate_2": "친구는 그의 제의를 받아들였다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000197",
+        "input": {
+            "sentence_1": "아이가 유치원에서 집으로 돌아왔다.",
+            "sentence_3": "그리고 욕실로 데려가 씻겼다.",
+            "sentence_2_candidate_1": "식당에서 아이는 맛있게 밥을 먹었다.",
+            "sentence_2_candidate_2": "현관에서 아이의 신발을 벗겼다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000198",
+        "input": {
+            "sentence_1": "교정 치과에서 내 치아 형태의 본을 떴다.",
+            "sentence_3": "장치가 도착한 날, 나는 치과에 가서 치아에 장치를 끼웠다.",
+            "sentence_2_candidate_1": "그리고 며칠 뒤에 장치를 제거할 것이라고 말했다.",
+            "sentence_2_candidate_2": "그리고 며칠 뒤에 장치가 도착할 것이라고 말했다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000199",
+        "input": {
+            "sentence_1": "천인공노할 범죄를 저지른 범죄자가 출옥했다.",
+            "sentence_3": "그는 집에 들어가지 못하고 방황했다.",
+            "sentence_2_candidate_1": "그 범죄자를 본 사람들은 인상을 찌푸렸다.",
+            "sentence_2_candidate_2": "그 범죄자는 자신의 집으로 돌아갔지만, 집 문이 열리지 않았다."
+        },
+        "output": "sentence_2_candidate_2"
+    },
+    {
+        "id": "nikluge-2024-연결문장추론-valid-000200",
+        "input": {
+            "sentence_1": "나는 길거리에서 이어폰을 끼고 음악을 들었다.",
+            "sentence_3": "나는 자동차와 부딪혀 사고가 날 뻔했다.",
+            "sentence_2_candidate_1": "그래서 뒤에 오는 자전거를 피하지 못했다.",
+            "sentence_2_candidate_2": "그래서 뒤에 오는 자동차를 피하지 못했다."
+        },
+        "output": "sentence_2_candidate_2"
+    }
+]
